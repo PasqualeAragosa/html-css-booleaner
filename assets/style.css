@@ -1,12 +1,21 @@
 header {
     width: 100%;
-    height: 65px;
-    background-color: red;
+    background-size: contain;
+    background-color: rgb(14, 103, 238);
+    background-image: url(../img/pattern.png);
 }
 
-#logo {
-    height: 80px;
-    width: 120px;
+.logo_boolean {
+    width: 20%;
+    margin-top: 20px;
+}
+
+span {
+    color: gray;
+}
+
+thead {
+    color: white;
 }
 
 .color_headrow {
@@ -16,11 +25,25 @@ header {
 .color_bodyrow {
     background-color: #11beee99;
 }
-img {
-    background-color: bisque;
+
+.paragrafo_footer {
+    color: grey; 
 }
 
-#sfondo {
-    width: 20px;
-    height: 20px;
+.monitor {
+    height: 300px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/monitor.jpg);
+}
+
+.graph {
+    height: 300px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/graph.jpg);
 }
