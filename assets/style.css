@@ -10,12 +10,16 @@ header {
     margin-top: 20px;
 }
 
-span {
-    color: gray;
+.span_titolo {
+    color: grey;
 }
 
 thead {
     color: white;
+}
+
+.giallo {
+    background: yellow;
 }
 
 .color_headrow {
@@ -26,24 +30,22 @@ thead {
     background-color: #11beee99;
 }
 
-.paragrafo_footer {
+.p_footer {
     color: grey; 
 }
 
-.monitor {
-    height: 300px;
+div {
+    height: 200px;
     width: 300px;
     color: white;
+    font-size: 30px;
     text-align: center;
-    background-repeat: no-repeat;
+}
+
+.monitor {
     background-image: url(../img/monitor.jpg);
 }
 
 .graph {
-    height: 300px;
-    width: 300px;
-    color: white;
-    text-align: center;
-    background-repeat: no-repeat;
     background-image: url(../img/graph.jpg);
 }
