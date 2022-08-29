@@ -1,0 +1,26 @@
+header {
+    width: 100%;
+    height: 65px;
+    background-color: red;
+}
+
+#logo {
+    height: 80px;
+    width: 120px;
+}
+
+.color_headrow {
+    background-color: #2cb2e3;
+}
+
+.color_bodyrow {
+    background-color: #11beee99;
+}
+img {
+    background-color: bisque;
+}
+
+#sfondo {
+    width: 20px;
+    height: 20px;
+}
