@@ -1,51 +1,113 @@
-header {
-    width: 100%;
-    background-size: contain;
-    background-color: rgb(14, 103, 238);
-    background-image: url(../img/pattern.png);
+/* #region Common rules */
+:root {
+    --bol-dark: #000000;
+    --bol-secondary: #20A9E5;
+    --bol-primary: #4EA0FF;
+    --bol-gray: #808080;
+    --bol-primary-lite: #B1E5F2;
+    --bol-white: #FFFFFF;
 }
 
-.logo_boolean {
-    width: 20%;
-    margin-top: 20px;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.span_titolo {
-    color: grey;
+table {
+    margin-bottom: 30px;
+    text-align: left;
+    border-spacing: 0;
 }
 
 thead {
-    color: white;
+    background-color: var(--bol-secondary);
+    color: var(--bol-white);
+}
+/* #endregion Common rules */
+
+/* #region Utilities */
+.m-20 {
+    margin-bottom: 20px;
 }
 
-.giallo {
-    background: yellow;
+.w-50 {
+    width: 50%;
+}
+/* #endregion Utilities */
+
+/* #region Header*/
+#site_header {
+    background-color: var(--bol-primary);
+    background-image: url(../img/pattern.png);
+    background-size: 13%;
 }
 
-.color_headrow {
-    background-color: #2cb2e3;
+.logo {
+    height: 50px;
+    margin: 1.5rem 0.5rem 0;
+}
+/* #endregion Header*/
+
+/* #region Main*/
+#site_main {
+    margin: 10px;
 }
 
-.color_bodyrow {
-    background-color: #11beee99;
+/* article_header*/
+.title {
+    font-size: 2.5rem;
 }
 
-.p_footer {
-    color: grey; 
+.metadata {
+    color: var(--bol-gray);
 }
 
-div {
-    height: 200px;
-    width: 300px;
-    color: white;
-    font-size: 30px;
-    text-align: center;
+.author {
+    color: var(--bol-primary);
 }
 
-.monitor {
+.date {
+    font-size: 0.75rem;
+}
+
+/* article_body */
+.images {
+    margin: 20px 0;
+}
+
+.caption {
+    font-size: 0.75rem;
+}
+
+ul {
+    margin-left: 10px;
+}
+
+.row_colored {
+    background-color: var(--bol-primary-lite);
+}
+
+/* related */
+.related_title {
+    color: var(--bol-gray);
+}
+
+#monitor {
     background-image: url(../img/monitor.jpg);
 }
 
-.graph {
-    background-image: url(../img/graph.jpg);
+#graph {
+    background-image: url(../img/graph.jpg); 
 }
+
+.related_article {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    font-size: 1.25rem;
+    color: var(--bol-white);
+    padding-top: 10px;
+}
+/* #endregion Main*/
+
